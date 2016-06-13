@@ -6,4 +6,5 @@ require 'rufus-scheduler'
 
 p [ :ruby, RUBY_VERSION ]
 p [ :rufus_scheduler, Rufus::Scheduler::VERSION ]
+p [ :uname_a, `uname -a`.strip ]
 
