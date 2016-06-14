@@ -1,18 +1,14 @@
-PATH
-  remote: ../rufus-scheduler/
-  specs:
-    rufus-scheduler (3.2.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    rufus-scheduler (3.2.1)
     timecop (0.8.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rufus-scheduler!
+  rufus-scheduler (= 3.2.1)
   timecop
 
 BUNDLED WITH
